@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: local
+  devtools:
+    livereload:
+      enabled: true
+    restart:
+      enabled: false
+  freemarker:
+    template-loader-path: classpath:/templates/
+    suffix: .ftl
+    cache: false
+  jwt:
+    secret: govlepel@$&
